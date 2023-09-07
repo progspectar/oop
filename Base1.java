@@ -12,7 +12,7 @@ public class Base1 extends Base{
     }
 
     public static void main(String[] args) {
-        Base base1 = new Base1("the state's been overridden in an inherited constructor");
+        Base base1 = new Base1("the state's been overridden in an constructor");
         String state1 = base1.getState();
         System.out.println(state1);
     }
